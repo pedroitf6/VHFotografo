@@ -1,0 +1,593 @@
+﻿/* Estilos dos menus*/
+/* menu do topo */
+
+
+
+#menu {
+background-color: rgba(0,0,0,0.2) !important;
+padding: 1.5rem 1rem;
+transition: all 500ms linear;
+
+
+}
+#menu.ativo {
+background-color: rgba(255,255,255,0.8) !important;
+padding: .5rem 1rem;
+
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #3c3c3c;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+	font-family: "Arial", Times, serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+li a:hover:not(.active) {
+  background-color:;
+
+}
+
+p{
+font: Arial;
+font-size: 12px;
+
+
+}
+
+.active {
+  background-color: #b4b4b4;
+}
+
+
+.MenuTop
+{
+	list-style: none;
+	padding: 0;
+	margin: 30px 0 0 0;
+}
+#menu_SP1_1
+{
+    margin-right: 35px;
+    margin-left: 33px;
+}
+#menu_SP1_2
+{
+    margin-left: 35px;
+    margin-right: 0;
+}
+/* itens do menu do topo */
+
+
+
+
+
+
+
+
+.fixed-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 130;
+}
+
+.button-img {
+  display: inline-block;
+
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+
+  font-size: 1rem;
+
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+.button-img:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.MenuItemTop1
+{
+	float: left;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 50;
+  margin: 0;
+  align-items: center;
+}
+
+@media only screen and (max-width: 992px){
+.Menutab{
+  display:none !important
+  }
+}
+
+
+.MenuItemTop
+{
+	float: right;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 50;
+  margin: 0;
+  list-style:none;
+
+}
+
+.MenuItemTop li{
+  position: relative;
+  float: left;
+    display: inline-block;
+
+ }
+
+ /* fallback */
+ @font-face {
+   font-family: 'Material Icons';
+   font-style: normal;
+   font-weight: 400;
+   src: url(https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+ }
+
+ .material-icons {
+   font-family: 'Material Icons';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+   line-height: 1;
+   letter-spacing: normal;
+   text-transform: none;
+   display: inline-block;
+   white-space: nowrap;
+   word-wrap: normal;
+   direction: ltr;
+   -webkit-font-feature-settings: 'liga';
+   -webkit-font-smoothing: antialiased;
+ }
+
+
+
+
+
+/* ---------------------------------------------*/
+
+
+
+li.dropdown {
+ display: inline-block;
+}
+
+.dropdown-content {
+ display: none;
+ position: fixed;
+ background-color: rgba(255,255,255,0.8);
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+/* itens do menu do topo (over) */
+.MenuItemTop:hover
+{
+
+}
+.MenuItemTop:last-of-type
+{
+}
+
+
+
+/* link dos itens do menu do topo */
+.MenuItemTop a
+{
+    color: #000000;
+    font-family: Arial;
+    font-weight: 90;
+    font-size: 10px;
+    text-transform: uppercase;
+	  -webkit-transition: all 0.1s linear 0s;
+    -moz-transition: all 0.1s linear 0s;
+    -ms-transition: all 0.1s linear 0s;
+    -o-transition: all 0.1s linear 0s;
+    transition: all 0.1s linear 0s;
+}
+.fa{
+
+display:inline-block;
+font-family:FontAwesome;
+font-style:normal;
+font-weight:normal;
+line-height:1;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+
+}
+
+.fa-home:before{
+content: url('../img/icon-home.png');
+}
+
+.fa-user:before{
+content: url('../img/user-icon.png');
+}
+
+.fa-service:before{
+content: url('../img/service-icon.png');
+}
+
+.fa-contact:before{
+content: url('../img/mail-icon.png');
+}
+
+.MenuItemTop>li>a i {
+	display: block;
+	text-align: center;
+}
+
+.MenuItemTop li a:hover
+{
+    color: #FFFFFF;
+    filter: opacity(50%);
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+
+
+}
+.MenuTopSelecionado
+{
+	float: left;
+	position: relative;
+	z-index: 50;
+}
+.MenuTopSelecionado a
+{
+    color: #3ea6ff;
+
+}
+
+.text{
+  text-align: left;
+
+
+
+}
+
+.font1{
+  text-align: center;
+  text-shadow: 5px 3px rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+
+
+}
+
+.font2{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.font3{
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.font4{
+  font-size: 12px;
+
+
+}
+
+.subtitulo{
+  font-size: 14px;
+  font-weight: bold;
+
+
+}
+
+
+
+
+
+.backgroundqm{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #FFFFFF;
+  position: relative;
+  text-align: center;
+  text-shadow: 5px 3px rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+
+
+
+}
+
+
+
+
+
+/* quando o mouse estiver sobre o submenu */
+.MenuItemTop:hover a{
+
+
+}
+/* menu da esquerda */
+.MenuEsq
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+/* itens menu da esquerda */
+.MenuItemEsq
+{
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 50;
+}
+.MenuItemEsq:hover
+{
+
+}
+.MenuItemEsq:last-of-type
+{
+
+}
+/* link dos itens do menu da esquerda */
+.MenuItemEsq a
+{
+
+}
+.MenuItemEsq a:hover
+{
+
+}
+.MenuEsqSelecionado
+{
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 50;
+}
+.MenuEsqSelecionado a
+{
+}
+/* menu da direita */
+.MenuDir
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+/* itens do menu da direita */
+.MenuItemDir
+{
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 50;
+}
+/* itens do menu da direita (over) */
+.MenuItemDir:hover
+{
+
+}
+.MenuItemDir:last-of-type
+{
+
+}
+/* link dos itens do menu da direita */
+.MenuItemDir a
+{
+
+}
+.MenuItemDir a:hover
+{
+
+}
+.MenuDirSelecionado
+{
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 50;
+}
+.MenuDirSelecionado a
+{
+}
+/* menu da base */
+.MenuBot
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+/* itens do menu da base */
+.MenuItemBot
+{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+/* itens do menu da base (over) */
+.MenuItemBot:hover
+{
+
+}
+.MenuItemBot:last-of-type
+{
+
+}
+/* link dos itens do menu da base */
+.MenuItemBot a
+{
+
+}
+.MenuItemBot a:hover
+{
+
+}
+/* itens do menu da base (over) */
+.MenuBotMove
+{
+
+}
+/* itens do menu dinamico da base (over) */
+.MenuBotDinMove
+{
+
+}
+/* menu dinamico (para todos menus dinamicos) */
+.MenuDinamico
+{
+	position: absolute;
+	display: none;
+	z-index: 49;
+	padding: 0;
+	margin: 0;
+	*top: 30px;
+	*left: 0;
+}
+.MenuDinamico ul
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+/* menu item dinamico (para todos menus dinamicos) */
+.menuItemDinamico
+{
+	position: relative;
+}
+.menuItemDinamico:hover
+{
+
+}
+.menuItemDinamico:last-of-type
+{
+
+}
+/* link dos itens dos submenus */
+.menuItemDinamico a
+{
+}
+.menuItemDinamico a:hover
+{
+}
+
+
+/* Estilos dos menus fim*/
+/*!
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+
+ * {margin: 0; padding: 0;}
+
+ a,img {border: none;}
+ .trs {-webkit-transition:all ease-out 0.5s;
+     -moz-transition:all ease-out 0.5s;
+     -o-transition:all ease-out 0.5s;
+     -ms-transition:all ease-out 0.5s;
+     transition:all ease-out 0.5s;}
+ #slider {position: relative; z-index: 1;}
+ #slider a { position: absolute; top: 0; left: 0; opacity: 0;filter:alpha(opacity=0);}
+ .ativo {opacity: 1!important; filter:alpha(opacity=100)!important;}
+
+ /*controladores*/
+ /**Definiremos as configurações do Container do slide **/
+#sliders{
+	/*Remove o bullet*/
+	list-style: none;
+	/* Define que position:relative porque os
+	 * elementos filhos usarão absolute
+	 */
+	position: relative;
+	/*Define a largura*/
+	width: 800px;
+	/*Define uma altura*/
+	height:300px;
+        /*Centralizar na horizontal*/
+	margin:0 auto;
+	/*Oculta os elementos que ultrapassarem
+	* as dimensões definidas
+	*/
+	overflow: hidden;
+}
+/*Configuremos os itens do slide*/
+#slider li{
+	/*Definimos como posição absoluta, seguindo o elemento pai*/
+	position: absolute;
+	/*Define que ficará encostado no topo*/
+	top:0;
+	/*Define que ficará enconstado do lado esquerdo*/
+	left:0;
+	/*Coloca a opacidade zero, pra ocultar*/
+	opacity: 0;
+	/*Define ordenação relacionados os elementos*/
+	z-index: 0;
+	/*Cria uma transição da opacidade com 1 segundo*/
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+/* Agora defiremos uma classe
+ * que mostrar o item atual
+ */
+#sliders li.slider-active{
+	/*Ordena que ficará a frente dos itens*/
+	z-index: 1;
+	/*Mostra o slide atual*/
+	opacity: 1;
+}
